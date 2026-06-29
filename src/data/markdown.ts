@@ -4,4 +4,4 @@ export interface IMarkdownContent {
   articleId: string
   content: string
 }
-export const MOCK_MARKDOWN_CONTENTS: IMarkdownContent[] = [...]
+export const MOCK_MARKDOWN_CONTENTS: IMarkdownContent[] = []

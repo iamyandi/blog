@@ -31,26 +31,21 @@ export default function AboutPage() {
         {/* Timeline */}
         <section className="w-full py-12">
           <div className="max-w-7xl mx-auto px-4 md:px-6">
-            <TimelineSection timeline={MOCK_PROFILE.timeline} timelineImageUrl={MOCK_PROFILE.timelineImageUrl} />
+            <TimelineSection />
           </div>
         </section>
 
         {/* Skills */}
         <section className="w-full py-12">
           <div className="max-w-7xl mx-auto px-4 md:px-6">
-            <SkillsSection skills={MOCK_PROFILE.skills} skillsImageUrl={MOCK_PROFILE.skillsImageUrl} />
+            <SkillsSection />
           </div>
         </section>
 
         {/* Contact */}
         <section className="w-full py-12">
           <div className="max-w-7xl mx-auto px-4 md:px-6">
-            <ContactSection
-              contact={MOCK_PROFILE.contact}
-              hobbies={MOCK_PROFILE.hobbies}
-              family={MOCK_PROFILE.family}
-              location={MOCK_PROFILE.location}
-            />
+            <ContactSection />
           </div>
         </section>
       </main>

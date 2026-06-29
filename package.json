@@ -1,11 +1,12 @@
 {
-  "name": "miaoda-vite-react-app",
+  "name": "yan-di-blog",
   "version": "0.1.0",
   "private": true,
   "type": "module",
+  "homepage": "https://iamyandi.github.io/blog",
   "scripts": {
     "dev": "node scripts/dev.mjs",
-    "build": "bash scripts/build.sh",
+    "build": "npx vite build --outDir dist --emptyOutDir",
     "typecheck": "tsc -p tsconfig.app.json",
     "lint": "concurrently npm:typecheck npm:lint:eslint",
     "lint:eslint": "eslint src",

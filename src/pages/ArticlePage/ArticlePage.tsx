@@ -68,7 +68,7 @@ export default function ArticlePage() {
 
         {/* 移动端目录（悬浮按钮） */}
         <div className="lg:hidden fixed bottom-20 right-4 z-40">
-          <ArticleTocSection content={article.content} mobile />
+          <ArticleTocSection content={article.content} />
         </div>
       </main>
     </div>

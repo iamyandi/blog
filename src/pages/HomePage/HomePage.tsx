@@ -51,7 +51,7 @@ export default function HomePage() {
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
             >
-              <TagCloudSection articles={MOCK_ARTICLES} />
+              <TagCloudSection />
             </motion.div>
           </div>
         </section>
