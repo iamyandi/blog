@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { CalendarDays } from 'lucide-react';
 import { MOCK_ARTICLES, type IArticle } from '@/data/articles';
 import { Image } from '@/components/ui/image';
-import { UniversalLink } from '@lark-apaas/client-toolkit-lite';
+
 
 function groupByYear(articles: IArticle[]): Map<number, IArticle[]> {
   const map = new Map<number, IArticle[]>();
@@ -56,13 +56,13 @@ export default function ArchivePage() {
           <section className="w-full">
             <div className="flex flex-wrap justify-center gap-2">
               {years.map((year) => (
-                <UniversalLink
+                <a
                   key={year}
-                  to={`#year-${year}`}
+                  href={`#year-${year}`}
                   className="inline-flex items-center px-3 py-1.5 rounded-full text-sm font-medium bg-muted text-muted-foreground hover:bg-primary/10 hover:text-primary transition-colors"
                 >
                   {year}
-                </UniversalLink>
+                </a>
               ))}
             </div>
           </section>

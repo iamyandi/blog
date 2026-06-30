@@ -6,7 +6,7 @@ import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { toast } from 'sonner';
 import { MOCK_PROFILE } from '@/data/profile';
-import { UniversalLink } from '@lark-apaas/client-toolkit-lite';
+
 
 const container = {
   hidden: { opacity: 0 },
@@ -71,8 +71,8 @@ function ContactSection() {
                   </Button>
                 </div>
 
-                <UniversalLink
-                  to={contact.github}
+                <a
+                  href={contact.github}
                   target="_blank"
                   rel="noreferrer"
                   className="flex items-center gap-3 p-3 rounded-lg bg-muted/50 hover:bg-muted transition-colors group"
@@ -84,7 +84,7 @@ function ContactSection() {
                       {contact.github.replace('https://', '')}
                     </p>
                   </div>
-                </UniversalLink>
+                </a>
 
                 <div className="flex items-center gap-3 p-3 rounded-lg bg-muted/50">
                   <MapPin className="size-5 text-muted-foreground shrink-0" />

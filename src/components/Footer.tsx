@@ -1,6 +1,6 @@
 import { Github } from 'lucide-react';
 import { MOCK_PROFILE } from '@/data/profile';
-import { UniversalLink } from '@lark-apaas/client-toolkit-lite';
+
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -16,15 +16,15 @@ export default function Footer() {
 
           {/* 社交链接 */}
           <div className="flex items-center gap-4">
-            <UniversalLink
-              to={MOCK_PROFILE.contact.github}
+            <a
+              href={MOCK_PROFILE.contact.github}
               target="_blank"
               rel="noreferrer"
               className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
             >
               <Github className="size-4" />
               <span>GitHub</span>
-            </UniversalLink>
+            </a>
           </div>
         </div>
       </div>
