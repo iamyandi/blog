@@ -74,7 +74,7 @@ export default function Header() {
           onClick={closeMobileMenu}
         >
           <span className="text-xl font-bold tracking-tight text-foreground">
-            闫珶
+            Aaron
           </span>
           <span className="hidden sm:inline text-xs text-muted-foreground font-mono tracking-wider">
             BLOG

@@ -79,6 +79,7 @@
   "devDependencies": {
     "@lark-apaas/coding-preset-vite-react": "^1.0.11",
     "@lark-apaas/coding-presets-react": "^0.1.0",
+    "@tailwindcss/vite": "^4.3.2",
     "@types/node": "^24",
     "@types/react": "^19",
     "@types/react-dom": "^19",

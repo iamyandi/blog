@@ -42,12 +42,12 @@ export interface IFamily {
 
 export const MOCK_PROFILE: IProfile = {
   id: '1',
-  name: '闫珶',
+  name: 'Aaron',
   birthYear: 1997,
   location: '上海',
-  tagline: 'IT从业者 / 陶瓷艺术设计背景 / 画家 / 插画师',
-  bio: '6年Java开发经验，任职于甲方央企银行。兼具技术与艺术双重背景，热爱代码与画笔。',
-  avatarUrl: 'https://lf3-static.bytednsdoc.com/obj/eden-cn/ylcylz_fsph_ryhs/ljhwZthlaukjlkulzlp/feisuda/avatar/base/1.jpg',
+  tagline: 'IT从业者 / Java开发工程师 / 系统架构师  / agent开发',
+  bio: '6年Java开发经验，任职于金融机构央企。兼具微服务开发与AI agent 开发双重背景，热爱代码、科学与哲学。',
+  avatarUrl: 'https://pica.zhimg.com/v2-a746c09d95a9b50198e8c01d675c3eaa_1440w.jpg',
   heroImageUrl: '/spark/app/app_17937h3mkgd/runtime/api/v1/storage/object/bucket_aadkihhdpsodg_static/static%2Faadkignyjwoco_ve_miaoda',
   timelineImageUrl: '/spark/app/app_17937h3mkgd/runtime/api/v1/storage/object/bucket_aadkihhdpsodg_static/static%2Faadkiew7cloai_ve_miaoda',
   skillsImageUrl: '/spark/app/app_17937h3mkgd/runtime/api/v1/storage/object/bucket_aadkihhdpsodg_static/static%2Faadkifg4u6iag_ve_miaoda',
@@ -55,20 +55,20 @@ export const MOCK_PROFILE: IProfile = {
     {
       id: '1',
       year: '2015-2019',
-      title: '陶瓷艺术设计专业',
-      description: '大学主修陶瓷艺术设计，打下扎实的造型与审美基础。'
+      title: '通信工程专业',
+      description: '大学主修通信工程，打下扎实的通信与网络基础。工作后成为后端开发工程师。'
     },
     {
       id: '2',
-      year: '2019-至今',
+      year: '2019-2024',
       title: 'Java后端开发工程师',
       description: '6年Java开发经验，任职于甲方央企银行，专注后端架构。'
     },
     {
       id: '3',
-      year: '2020-至今',
-      title: '画家 / 插画师 / 美术老师',
-      description: '业余从事绘画创作与艺考素描教学，多幅作品被收藏。'
+      year: '2024-至今',
+      title: '项目管理 / 架构师 / 技术负责人',
+      description: '负责项目架构设计、技术团队管理与项目进度协调。'
     }
   ],
   skills: [
@@ -77,16 +77,16 @@ export const MOCK_PROFILE: IProfile = {
       items: ['Java后端', 'Spring Boot', 'Linux运维', 'Python自动化', 'Docker', 'MySQL']
     },
     {
-      category: '艺术技能',
-      items: ['陶瓷设计', '绘画', '插画', '素描教学']
+      category: '运动技能',
+      items: ['篮球', '游泳', '健身', '哲学']
     }
   ],
   contact: {
-    email: 'yanchen@example.com',
-    github: 'https://github.com/yanchen',
+    email: 'ydi_sir@163.com',
+    github: 'https://github.com/iamyandi',
     location: '上海'
   },
-  hobbies: ['健身减脂', '网文创作', '金融投资'],
+  hobbies: ['健身减脂', '篮球', '游泳','哲学'],
   family: {
     daughter: '潇潇',
     daughterBirth: '2024-06-03'

@@ -39,10 +39,10 @@ export default function ArticleMetaSection({ article }: ArticleMetaSectionProps)
           {/* 作者 */}
           <div className="flex items-center gap-2">
             <Avatar className="size-7">
-              <AvatarImage src="https://lf3-static.bytednsdoc.com/obj/eden-cn/ylcylz_fsph_rhys/ljhwZthlaukjlkulzlp/feisuda/avatar/base/1.jpg" alt="闫珶" />
+              <AvatarImage src="https://pica.zhimg.com/v2-a746c09d95a9b50198e8c01d675c3eaa_1440w.jpg" alt="Aaron" />
               <AvatarFallback>闫</AvatarFallback>
             </Avatar>
-            <span className="font-medium text-foreground">闫珶</span>
+            <span className="font-medium text-foreground">Aaron</span>
           </div>
 
           {/* 分隔 */}

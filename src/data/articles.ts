@@ -25,25 +25,25 @@ export const MOCK_ARTICLES: IArticle[] = [
   },
   {
     id: '2',
-    title: '青釉瓷器的温度',
-    summary: '探索陶瓷釉面背后的工艺美学',
-    category: 'art',
-    tags: ['陶瓷', '釉面', '手工艺'],
+    title: 'AI Agent 开发实战：构建智能助手',
+    summary: '从 LLM 调用到多 Agent 协作的完整指南',
+    category: 'tech',
+    tags: ['AI', 'Agent', 'LLM', 'Python'],
     date: '2024-11-20',
-    content: '# 青釉瓷器的温度\n\n## 釉色的秘密\n青釉之美，在于那一抹温润...',
-    imageUrl: '/spark/app/app_17937h3mkgd/runtime/api/v1/storage/object/bucket_aadkihhdpsodg_static/static%2Faadkigntg2cao_ve_miaoda',
-    readTime: 8
+    content: '# AI Agent 开发实战：构建智能助手\n\n## 什么是 AI Agent\nAI Agent 是能够感知环境、做出决策并执行行动的智能系统...',
+    imageUrl: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=AI%20robot%20assistant%20with%20digital%20brain%20technology%20concept&image_size=landscape_16_9',
+    readTime: 12
   },
   {
     id: '3',
-    title: '插画创作：从草图到成品',
-    summary: '分享一幅商业插画的完整创作流程',
-    category: 'art',
-    tags: ['插画', '创作', '手绘'],
+    title: '系统架构师实战：微服务设计模式',
+    summary: '深入剖析分布式系统架构设计的核心模式',
+    category: 'tech',
+    tags: ['架构', '微服务', '分布式', '设计模式'],
     date: '2024-10-05',
-    content: '# 插画创作流程\n\n## 灵感来源\n每一幅插画都始于一个想法...',
-    imageUrl: '/spark/app/app_17937h3mkgd/runtime/api/v1/storage/object/bucket_aadkihhdpsodg_static/static%2Faadkifsdcpyfg_ve_miaoda',
-    readTime: 10
+    content: '# 系统架构师实战：微服务设计模式\n\n## 架构设计原则\n优秀的系统架构需要平衡性能、可扩展性和可维护性...',
+    imageUrl: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=system%20architecture%20diagram%20cloud%20computing%20microservices&image_size=landscape_16_9',
+    readTime: 15
   },
   {
     id: '4',

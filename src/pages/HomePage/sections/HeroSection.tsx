@@ -9,8 +9,8 @@ export default function HeroSection() {
 
   const identityTags = [
     { icon: Code, label: 'Java 后端开发', color: 'bg-primary/10 text-primary border-primary/20' },
-    { icon: Palette, label: '陶瓷艺术设计', color: 'bg-accent text-accent-foreground border-accent' },
-    { icon: PenLine, label: '画家 / 插画师', color: 'bg-secondary text-secondary-foreground border-secondary' },
+    { icon: Palette, label: 'AIagent开发', color: 'bg-accent text-accent-foreground border-accent' },
+    { icon: PenLine, label: '系统架构师', color: 'bg-secondary text-secondary-foreground border-secondary' },
   ];
 
   return (
