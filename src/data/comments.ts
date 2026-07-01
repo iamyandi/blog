@@ -84,9 +84,17 @@ export const MOCK_COMMENTS: IComment[] = [
   {
     id: '10',
     articleId: '6',
-    author: '技术博主',
-    avatarUrl: 'https://api.dicebear.com/9.x/avataaars/svg?seed=TechBlogger',
-    content: '技术分享很实用，期待更多干货文章！',
+    author: 'Prompt工程师',
+    avatarUrl: 'https://api.dicebear.com/9.x/avataaars/svg?seed=PromptEngineer',
+    content: '提示词分类和优化技巧讲得太全面了，Token优化那部分特别实用！',
     createdAt: '2025-02-20 15:22'
+  },
+  {
+    id: '11',
+    articleId: '6',
+    author: 'AI开发者',
+    avatarUrl: 'https://api.dicebear.com/9.x/avataaars/svg?seed=AIDeveloper2',
+    content: '思维链和少样本学习的示例很清晰，终于明白怎么写高质量Prompt了。',
+    createdAt: '2025-02-21 09:30'
   }
 ]

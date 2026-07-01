@@ -27,7 +27,7 @@ export default memo(function TimelineSection() {
             个人履历
           </h2>
           <p className="mt-3 text-muted-foreground text-lg">
-            从陶瓷艺术到后端开发，跨界成长的旅程
+            从后端开发到系统架构师，生命中的每一次努力都算数
           </p>
         </motion.div>
 
