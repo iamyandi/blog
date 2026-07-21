@@ -58,7 +58,7 @@ export const MOCK_PROFILE: IProfile = {
       title: '通信工程专业',
       description: '大学主修通信工程，打下扎实的通信与网络基础。工作后成为后端开发工程师。'
     },
-    {
+    { 
       id: '2',
       year: '2019-2024',
       title: 'Java后端开发工程师',
@@ -74,7 +74,7 @@ export const MOCK_PROFILE: IProfile = {
   skills: [
     {
       category: '技术栈',
-      items: ['Java后端', 'Spring Boot', 'Linux运维', 'Python自动化', 'Docker', 'MySQL']
+      items: ['Java后端', '微服务架构', 'Spring Boot', 'Linux运维', 'Python自动化', 'Docker', 'MySQL']
     },
     {
       category: '运动技能',

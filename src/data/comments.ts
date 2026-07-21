@@ -60,17 +60,17 @@ export const MOCK_COMMENTS: IComment[] = [
   {
     id: '7',
     articleId: '4',
-    author: '奶爸日记',
-    avatarUrl: 'https://api.dicebear.com/9.x/avataaars/svg?seed=NewDad',
-    content: '同为新手爸爸，深有同感，宝贝很可爱！',
+    author: '职场思考者',
+    avatarUrl: 'https://api.dicebear.com/9.x/avataaars/svg?seed=CareerThinker',
+    content: '非常赞同！我一直觉得脑力劳动的核心是持续学习，而不是工作形式。搬砖也可以有工匠精神，写代码也可能只是机械重复。',
     createdAt: '2025-02-10 19:30'
   },
   {
     id: '8',
     articleId: '4',
-    author: '健身达人',
-    avatarUrl: 'https://api.dicebear.com/9.x/avataaars/svg?seed=FitLife',
-    content: '减脂期的饮食计划能详细说说吗？',
+    author: '终身学习者',
+    avatarUrl: 'https://api.dicebear.com/9.x/avataaars/svg?seed=LifelongLearner',
+    content: '焦虑感确实是基因里的生存本能在提醒我们。保持脑力劳动，持续进步，才能在这个快速变化的时代立足。',
     createdAt: '2025-02-11 07:15'
   },
   {

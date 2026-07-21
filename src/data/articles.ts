@@ -47,14 +47,14 @@ export const MOCK_ARTICLES: IArticle[] = [
   },
   {
     id: '4',
-    title: '新手爸爸的育儿笔记',
-    summary: '记录女儿潇潇的成长点滴',
+    title: '重新定义劳动：体力与脑力',
+    summary: '打破传统认知，重新审视两种劳动的本质',
     category: 'life',
-    tags: ['育儿', '家庭', '成长'],
+    tags: ['思考', '职场', '成长'],
     date: '2024-09-12',
-    content: '# 新手爸爸的育儿笔记\n\n## 初为人父\n2024年6月3日，潇潇来到了这个世界...',
-    imageUrl: '/spark/app/app_17937h3mkgd/runtime/api/v1/storage/object/bucket_aadkihhdpsodg_static/static%2Faadkigntg2cbo_ve_miaoda',
-    readTime: 6
+    content: '# 重新定义劳动：体力与脑力\n\n我要重新定义这世界上的两种劳动，体力劳动和脑力劳动。\n\n当一个人在某个领域持续进步，努力学习时，我说他进行了脑力的劳动。即使这个人是在工地搬砖，浇水泥，动脑子的传统意义上的体力劳动者难道就不是脑力劳动吗？只要一个人能持续的进行脑力劳动，那么我们不能拘泥于这个人具体是干的什么工作。\n\n而一旦当一个人停止了学习，停止了进步，只依靠过去的经验进行生活时，我说他只是在进行体力劳动而已，并没有动脑子，即使这个人是坐在办公室，吹着空调，敲着电脑。在大模型还没出现前只写crud的码农同学应该对这种体力劳动深有感触。\n\n那么你是脑力劳动者还是体力劳动者呢？\n\n如果我们已经有了一份体面的工作，丰厚的薪水，我们只靠吃老本就能获得不错的生活，那么你的脑力劳动还会继续进行吗？\n\n有一部分人，会把脑力劳动的重心转移到人际往来的人情世故中，有一部分人会把脑力劳动转移到更具体的事务工作中，有一部分人停止了脑力劳动，而这个加速前进的世界对于原地踏步的人，会有很明显的相对运动，你的本能体感也在告诉你，你在滑落。所以你会焦虑，毕竟，这是刻在我们基因里的生存本能。在生产没有保障的时代，掉队，意味着死亡。',
+    imageUrl: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=thinking%20brain%20labor%20work%20concept%20minimalist%20line%20art&image_size=landscape_16_9',
+    readTime: 5
   },
   {
     id: '5',
