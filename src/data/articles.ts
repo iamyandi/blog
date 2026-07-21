@@ -20,7 +20,7 @@ export const MOCK_ARTICLES: IArticle[] = [
     tags: ['Java', 'Spring Boot', '微服务'],
     date: '2024-12-15',
     content: '# Spring Boot 微服务实战\n\n## 前言\n本文记录使用 Spring Boot 搭建微服务的完整过程...',
-    imageUrl: '/spark/app/app_17937h3mkgd/runtime/api/v1/storage/object/bucket_aadkihhdpsodg_static/static%2Faadkie7o7iwbg_ve_miaoda',
+    imageUrl: 'https://picsum.photos/seed/springboot/800/500',
     readTime: 12
   },
   {
@@ -31,7 +31,7 @@ export const MOCK_ARTICLES: IArticle[] = [
     tags: ['AI', 'Agent', 'LLM', 'Python'],
     date: '2024-11-20',
     content: '# AI Agent 开发实战：构建智能助手\n\n## 什么是 AI Agent\nAI Agent 是能够感知环境、做出决策并执行行动的智能系统...',
-    imageUrl: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=AI%20robot%20assistant%20with%20digital%20brain%20technology%20concept&image_size=landscape_16_9',
+    imageUrl: 'https://picsum.photos/seed/aiagent/800/500',
     readTime: 12
   },
   {
@@ -42,7 +42,7 @@ export const MOCK_ARTICLES: IArticle[] = [
     tags: ['架构', '微服务', '分布式', '设计模式'],
     date: '2024-10-05',
     content: '# 系统架构师实战：微服务设计模式\n\n## 架构设计原则\n优秀的系统架构需要平衡性能、可扩展性和可维护性...',
-    imageUrl: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=system%20architecture%20diagram%20cloud%20computing%20microservices&image_size=landscape_16_9',
+    imageUrl: 'https://picsum.photos/seed/architecture/800/500',
     readTime: 15
   },
   {
@@ -53,7 +53,7 @@ export const MOCK_ARTICLES: IArticle[] = [
     tags: ['思考', '职场', '成长'],
     date: '2024-09-12',
     content: '# 重新定义劳动：体力与脑力\n\n我要重新定义这世界上的两种劳动，体力劳动和脑力劳动。\n\n当一个人在某个领域持续进步，努力学习时，我说他进行了脑力的劳动。即使这个人是在工地搬砖，浇水泥，动脑子的传统意义上的体力劳动者难道就不是脑力劳动吗？只要一个人能持续的进行脑力劳动，那么我们不能拘泥于这个人具体是干的什么工作。\n\n而一旦当一个人停止了学习，停止了进步，只依靠过去的经验进行生活时，我说他只是在进行体力劳动而已，并没有动脑子，即使这个人是坐在办公室，吹着空调，敲着电脑。在大模型还没出现前只写crud的码农同学应该对这种体力劳动深有感触。\n\n那么你是脑力劳动者还是体力劳动者呢？\n\n如果我们已经有了一份体面的工作，丰厚的薪水，我们只靠吃老本就能获得不错的生活，那么你的脑力劳动还会继续进行吗？\n\n有一部分人，会把脑力劳动的重心转移到人际往来的人情世故中，有一部分人会把脑力劳动转移到更具体的事务工作中，有一部分人停止了脑力劳动，而这个加速前进的世界对于原地踏步的人，会有很明显的相对运动，你的本能体感也在告诉你，你在滑落。所以你会焦虑，毕竟，这是刻在我们基因里的生存本能。在生产没有保障的时代，掉队，意味着死亡。',
-    imageUrl: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=thinking%20brain%20labor%20work%20concept%20minimalist%20line%20art&image_size=landscape_16_9',
+    imageUrl: 'https://picsum.photos/seed/labor/800/500',
     readTime: 5
   },
   {
@@ -64,10 +64,10 @@ export const MOCK_ARTICLES: IArticle[] = [
     tags: ['Docker', 'DevOps', 'Linux'],
     date: '2024-08-28',
     content: '# Docker 容器化部署指南\n\n## 为什么需要容器化\n在现代软件开发中...',
-    imageUrl: '/spark/app/app_17937h3mkgd/runtime/api/v1/storage/object/bucket_aadkihhdpsodg_static/static%2Faadkifg4u6ghg_ve_miaoda',
+    imageUrl: 'https://picsum.photos/seed/docker/800/500',
     readTime: 15
   },
-  {
+  { 
     id: '6',
     title: '大模型提示词工程：从入门到精通',
     summary: '系统讲解提示词的分类、优化技巧与实战方法',
@@ -75,7 +75,7 @@ export const MOCK_ARTICLES: IArticle[] = [
     tags: ['AI', '提示词', 'Prompt', '大模型'],
     date: '2024-07-15',
     content: '# 大模型的三种提示词\n\n## User prompt（用户输入的提示词）\n\n## System prompt（系统设定提示词）\n\n## Assistant prompt（助手输出提示词）\n\n## 常见提示词分类\n\n除了基于角色的分类外，我们还可以从功能角度对提示词进行分类，仅作了解即可。\n\n### 1）指令型提示词（Instructional Prompts）\n明确告诉 AI 模型需要执行的任务，通常以命令式语句开头。\n\n```plain\n翻译以下文本为英文：春天来了，花儿开了。\n```\n\n### 2）对话型提示词（Conversational Prompts）\n模拟自然对话，以问答形式与 AI 模型交互。\n\n```plain\n你认为人工智能会在未来取代人类工作吗？\n```\n\n### 3）创意型提示词（Creative Prompts）\n引导 AI 模型进行创意内容生成，如故事、诗歌、广告文案等。\n\n```plain\n写一个发生在未来太空殖民地的短篇科幻故事，主角是一位机器人工程师。\n```\n\n### 4）角色扮演提示词（Role-Playing Prompts）\n让 AI 扮演特定角色或人物进行回答。\n\n```plain\n假设你是爱因斯坦，如何用简单的语言解释相对论？\n```\n\n### 5）少样本学习提示词（Few-Shot Prompts）\n提供一些示例，引导 AI 理解所需的输出格式和风格。\n\n```plain\n将以下句子改写为正式商务语言：\n示例1：\n原句：这个想法不错。\n改写：该提案展现了相当的潜力和创新性。\n\n示例2：\n原句：我们明天见。\n改写：期待明日与您会面，继续我们的商务讨论。\n\n现在请改写：这个价格太高了。\n```\n\n## 扩展知识 - 基于复杂度的分类\n\n### 1）简单提示词（Simple Prompts）\n单一指令或问题，没有复杂的背景或约束条件。\n\n```plain\n什么是人工智能？\n```\n\n### 2）复合提示词（Compound Prompts）\n包含多个相关指令或步骤的提示词。\n\n```plain\n分析下面这段代码，解释它的功能，找出潜在的错误，并提供改进建议。\n```\n\n### 3）链式提示词（Chain Prompts）\n一系列连续的、相互依赖的提示词，每个提示词基于前一个提示词的输出。\n\n```plain\n第一步：生成一个科幻故事的基本情节。\n第二步：基于情节创建三个主要角色，包括他们的背景和动机。\n第三步：利用这些角色和情节，撰写故事的开篇段落。\n```\n\n### 4）模板提示词（Template Prompts）\n包含可替换变量的标准化提示词结构，常用于大规模应用。\n\n```plain\n你是一位专业的{领域}专家。请回答以下关于{主题}的问题：{具体问题}。\n回答应包含{要点数量}个关键点，并使用{风格}的语言风格。\n```\n\n💡 模板提示词的概念还是需要了解一下的，在应用开发过程中，我们可能会用到该特性，来保证提示词是规范统一的。\n\n## Token 成本优化技巧\n\n注意，系统提示词、用户提示词和 AI 大模型输出的内容都是消耗成本的，因此我们成本优化主要从这些角度进行。\n\n### 1）精简系统提示词\n移除冗余表述，保留核心指令。比如将\"你是一个非常专业、经验丰富且非常有耐心的编程专家\"简化为\"你是编程专家\"。\n\n### 2）定期清理对话历史\n对话上下文会随着交互不断累积 Token。在长对话中，可以定期请求 AI 总结之前的对话，然后以总结替代详细历史。\n\n```plain\n请总结我们至今的对话要点，后续我们将基于此总结继续讨论。\n```\n\n### 3）使用向量检索代替直接输入\n对于需要处理大量参考文档的场景，不要直接将整个文档作为 Prompt，而是使用向量数据库和检索技术（RAG）获取相关段落。\n\n### 4）结构化替代自然语言\n使用表格、列表等结构化格式代替长段落描述。\n\n## 基础提示技巧\n\n### 1、明确指定任务和角色\n为 AI 提供清晰的任务描述和角色定位，帮助模型理解背景和期望。\n\n```plain\n系统：你是一位经验丰富的Python教师，擅长向初学者解释编程概念。\n用户：请解释 Python 中的列表推导式，包括基本语法和 2-3 个实用示例。\n```\n\n### 2、提供详细说明和具体示例\n提供足够的上下文信息和期望的输出格式示例，减少模型的不确定性。\n\n### 3、使用结构化格式引导思维\n通过列表、表格等结构化格式，使指令更易理解，输出更有条理。\n\n### 4、明确输出格式要求\n指定输出的格式、长度、风格等要求，获得更符合预期的结果。\n\n## 进阶提示技巧\n\n### 1、思维链提示法（Chain-of-Thought）\n引导模型展示推理过程，逐步思考问题，提高复杂问题的准确性。\n\n### 2、少样本学习（Few-Shot Learning）\n通过提供几个输入-输出对的示例，帮助模型理解任务模式和期望输出。\n\n### 3、分步骤指导（Step-by-Step）\n将复杂任务分解为可管理的步骤，确保模型完成每个关键环节。\n\n### 4、自我评估和修正\n让模型评估自己的输出并进行改进，提高准确性和质量。\n\n### 5、知识检索和引用\n引导模型检索相关信息并明确引用信息来源，提高可靠性。\n\n### 6、多视角分析\n引导模型从不同角度、立场或专业视角分析问题，提供全面见解。\n\n### 7、多模态思维\n结合不同表达形式进行思考，如文字描述、图表结构、代码逻辑等。\n\n## 提示词调试与优化\n\n### 1、迭代式提示优化\n通过逐步修改和完善提示词，提高输出质量。\n\n### 2、边界测试\n通过极限情况测试模型的能力边界，找出优化空间。\n\n### 3、提示词模板化\n创建结构化模板，便于针对类似任务进行一致性提示。\n\n### 4、错误分析与修正\n系统性分析模型回答中的错误，并针对性优化提示词。\n\n---\n\n虽然前面提到了这么多提示词优化技巧，但总结出来就一句话：任务越复杂，就要给 Prompt 补充更多细节。\n我们可以把 AI 当成人类，如果你的问题模糊不清，那么得到的答案可能就并不理想。',
-    imageUrl: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=AI%20prompt%20engineering%20concept%20with%20digital%20brain%20and%20code&image_size=landscape_16_9',
+    imageUrl: 'https://picsum.photos/seed/prompt/800/500',
     readTime: 25
   }
 ]

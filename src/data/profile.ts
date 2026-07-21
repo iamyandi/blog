@@ -47,10 +47,10 @@ export const MOCK_PROFILE: IProfile = {
   location: '上海',
   tagline: 'IT从业者 / Java开发工程师 / 系统架构师  / agent开发',
   bio: '6年Java开发经验，任职于金融机构央企。兼具微服务开发与AI agent 开发双重背景，热爱代码、科学与哲学。',
-  avatarUrl: 'https://pica.zhimg.com/v2-a746c09d95a9b50198e8c01d675c3eaa_1440w.jpg',
-  heroImageUrl: '/spark/app/app_17937h3mkgd/runtime/api/v1/storage/object/bucket_aadkihhdpsodg_static/static%2Faadkignyjwoco_ve_miaoda',
-  timelineImageUrl: '/spark/app/app_17937h3mkgd/runtime/api/v1/storage/object/bucket_aadkihhdpsodg_static/static%2Faadkiew7cloai_ve_miaoda',
-  skillsImageUrl: '/spark/app/app_17937h3mkgd/runtime/api/v1/storage/object/bucket_aadkihhdpsodg_static/static%2Faadkifg4u6iag_ve_miaoda',
+  avatarUrl: 'https://picsum.photos/seed/aaron/200/200',
+  heroImageUrl: 'https://picsum.photos/seed/hero/800/400',
+  timelineImageUrl: 'https://picsum.photos/seed/timeline/800/300',
+  skillsImageUrl: 'https://picsum.photos/seed/skills/800/300',
   timeline: [
     {
       id: '1',
